@@ -18,32 +18,32 @@ function Footer() {
       <div className="flex justify-around bg-black py-4">
         <div>
         <p className="text-xl font-bold">Products</p>
-        <li className="mx-1">
+        <ul className="mx-1">
           <li className="hover:text-red-300">Courses</li>
            <li className="hover:text-red-300">cohorts</li>
             <li className="hover:text-red-300">Udemy</li>
              <li className="hover:text-red-300">Free Apis</li>
-        </li>
+        </ul>
         </div>
 
          <div>
           <p className="text-xl font-bold">Resources</p>
-           <li className="mx-1">
+           <ul className="mx-1">
           <li className="hover:text-red-300">docs</li>
            <li className="hover:text-red-300">Privacy Policy</li>
             <li className="hover:text-red-300">Terms Of Service</li>
              <li className="hover:text-red-300">Pricing Policy</li>
-        </li>
+        </ul>
         </div>
 
         <div>
           <p className="text-xl font-bold">Social</p>
-            <li className="mx-1">
+            <ul className="mx-1">
           <li className="hover:text-red-300">x.com</li>
            <li className="hover:text-red-300">Github</li>
             <li className="hover:text-red-300">Linkedin</li>
              <li className="hover:text-red-300">Instagram</li>
-        </li>
+        </ul>
         </div>
 
       </div>
